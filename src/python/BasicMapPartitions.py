@@ -32,4 +32,4 @@ if __name__ == "__main__":
     input = sc.parallelize(["KK6JKQ", "Ve3UoW", "kk6jlk", "W6BB"])
     output = sorted(fetchCallSigns(input).collect())
     for str in output:
-        print "%s " % (str)
+        print("%s " % (str))

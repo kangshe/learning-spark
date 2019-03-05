@@ -24,4 +24,4 @@ if __name__ == "__main__":
     sc = SparkContext(master, "Sum")
     nums = sc.parallelize([1, 2, 3, 4])
     avg = basicAvg(nums)
-    print avg
+    print(avg)
